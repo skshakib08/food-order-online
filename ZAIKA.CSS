@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  
+    overflow-x: hidden;
+}
+
+
+#home 
+{
+    display: flex;
+    flex-direction: column;
+    padding:2px 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home::before
+{
+    content:"";
+      background:url( /img/pexels1.jpg)no-repeat center center/cover ;   
+     /* background: linear-gradient(#00000080, #000000cc),url(/img/pexels1.jpg);  */
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.90;
+
+}
+
+#home h1
+{
+    padding: 40px;
+    font-size: 40px;
+    color:white;
+    font-family:'Libre Bodoni', serif;
+
+
+}
+
+
+.pop
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:rgb(252, 251, 251);
+    font-family: 'Proza Libre', sans-serif;
+
+}
+
+#btn
+{
+ 
+    padding: 2px 20px;
+    margin-top: 20px;
+    background-color: brown;
+    border:2px solid white;
+    color: white;
+    border-radius: 8PX;
+    cursor: pointer;
+    
+}
+
+#servicescontainer
+{
+    display: flex;
+    flex-direction: column;
+    padding:2px 100px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicescontainer ::before
+{
+    content:"";
+    background-color: white; 
+    position:absolute;
+    width:100%;
+    height:50%;
+    z-index:-1;
+    
+}
+
+
+#services
+{
+ 
+  display: flex;  
+  justify-content: center;
+    
+}
+
+.boxes
+{
+    margin-top: 10px;
+    display: flex;
+    padding: 0px 20px;
+  
+}
+
+#foodordering 
+{
+  border: 1px solid brown;  
+  width: 300px;
+  height: 280px;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  
+}
+
+#foodordering h2
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#foodordering p
+{
+    text-align: center;
+       
+}
+
+
+
+#foodordering img
+{
+    display: block;
+    margin: auto;
+    height: 100px;
+
+
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    opacity: 0.70;
+   
+}
+
+#con
+{
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+.cont input
+{
+  margin: 10px;
+   padding: 3px;
+   width: 200px;
+   border-radius: 5px;
+}
+
+#contact::before
+{
+    content:"";
+    background:url( /img/pexels1.2.jpg) no-repeat center center/cover; 
+    position:absolute;
+    width:100%;
+    height:60%;
+    z-index:-1;
+    opacity:0.89;
+}
+#submit{
+    
+    padding: 2px 20px;
+    margin-top: 20px;
+    background-color: brown;
+    border:2px solid white;
+    color: white;
+    border-radius: 8PX;
+    cursor: pointer;
+    
+    
+}
+
+
